@@ -6,7 +6,7 @@ and the little-endians apart.  They can convert any integral datatype
 (such as uint32_t) into a variant which is guaranteed to be stored in
 a certain endianness, regardless of the native endianness of the host.
 
-be<T> will give you a big-endian T, and le<T> will give you a
+`be<T>` will give you a big-endian T, and `le<T>` will give you a
 little-endian T.  An optional second template parameter lets you
 change the type of the pieces that are arranged according to the
 specificed endianness (default uint8_t).  This way you can create for
